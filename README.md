@@ -15,6 +15,8 @@ I had issues with the initial formatting and responsiveness of the page however 
 I chose to use my own artwork as icons to give a more personalised touch. I enjoyed the challenges of this project.
 
 DEPLOY LINK
+https://xanlefee.github.io/Responsive-Web-Portfolio/
+
 
 
 <img src="Assets/images/webpage-gif.gif" width="800" />
