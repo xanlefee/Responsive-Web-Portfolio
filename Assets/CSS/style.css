@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+
+    @media screen only {
+        1080px
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    background-image: url(/Assets/images/Star\ texture.jpg);
+    background-size: 40%;
+    background-repeat: repeat;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-position: top;
+    border: 10px solid;
+
+
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    grid-area: nav;
+    grid-template-rows: 1;
+    grid-template-columns: 4;
+    justify-content: space-evenly;
+    text-decoration-style: solid;
+    font-size: 1.5vw;
+    text-shadow: 2px 1px #725af7;
+
+
+}
+
+.page-wrapper {
+
+    background-image: url(/Assets/images/Cloud\ texture.jpg);
+    background-repeat: repeat;
+    background-size: 150%;
+    display: grid;
+    grid-template-areas:
+
+        "header header header"
+        "nav nav nav"
+        "sidebar content content"
+        "sidebar contenta contenta"
+        "sidebar content2 content2"
+        "sidebar footer footer";
+
+
+}
+
+.header {
+    display:block;
+    text-align: center;
+   
+
+}
+
+.hero-banner {
+
+    display: grid;
+    grid-area: header;
+    grid-area: contenta;
+    justify-content: center;
+    text-shadow: 3px 3px #725af7;
+
+
+}
+
+#mepic {
+
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 10px solid rgb(114, 82, 255);
+    justify-content: start
+    
+
+}
+
+#planet {
+
+    margin-left: 50%;
+    margin-top: 10% display:;
+    position: relative;
+    z-index: 0;
+}
+
+.sidebar1 {
+
+    display: grid;
+    grid-area: sidebar;
+    border: 5px solid;
+    font-size: 2vw;
+    align-items:center
+   
+}
+
+
+.opening-paragraph {
+
+    display: grid;
+    grid-area: content;
+    background-color: rgb(31, 252, 68);
+    grid-template-rows: 1fr, 2fr, 3fr;
+    border: 6px solid;
+    border-left: 2px;
+    border-right: 2px;
+    font-size: 2vw;
+}
+
+.project1 {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw
+}
+
+
+.OtherProjects {
+
+    display: grid;
+    grid-area: content2;
+    background-image: url(/Assets/images/checker\ texture.jpg);
+    background-repeat: repeat;
+    background-size: 20%;
+    justify-content: space-evenly;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    border: 10px solid;
+    border-left: 2px;
+    border-right: 1px;
+    border-bottom: 2px;
+
+}
+
+
+#webdesign,
+#studyguide,
+#placeholder {
+
+    margin: auto;
+    display: grid;
+    border-radius: 5%;
+    border: 5px solid;
+}
+
+    #crystalball, #sphinx, #ball {
+
+        margin: auto;
+    display: grid;
+    margin-bottom: 1%;
+    
+
+    }
+
+
+.contact-items {
+
+    display: flex;
+    flex-direction: row;
+    grid-area: footer;
+    grid-template-rows: 1;
+    grid-template-columns: 4;
+    justify-content: space-evenly;
+    text-decoration: solid;
+    border: 5px solid;
+    border-left: 2px;
+    border-right: 2px;
+    background-color: rgb(71, 255, 86);
+    font-size: 1vw;
+    
+
+}
+
+#work1 {
+
+    display: grid;
+    background-color: rgb(255, 152, 200);
+    grid-area: contenta;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-size: x-large;
+    COLOR: WHITE;
+    kerning: 100%;
+    font-size: 6vw;
+    text-shadow: 3px 3px #725af7;
+    display: grid;
+
+}
+
+
+#h2-1 {
+
+    color: white;
+}
+
+#h2-2 {
+
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    line-height: 0in;
+    font-size: 4vw;
+
+}
+
+#h2-3 {
+
+    display: inline-block;
+
+    background: #00d9ff;
+    padding-inline: 10%;
+    color: #000000;
+    font-size: 2vw;
+    border: 9px solid;
+}
+
+#h2-4 {
+
+    display: block;
+    background: #3f5cff;
+    padding-inline: 10%;
+    color: #000000;
+
+    border: 10px solid;
+    border-left: 2px;
+    border-right: 2px;
+
+}
+
+#h2-5 {
+
+    display: inline-block;
+
+    background: #00d9ff;
+    padding-inline: 10%;
+    color: #000000;
+    font-size: 2vw;
+    border: 9px solid;
+    border-left: 2px;
+    border-right: 2px;;
+
+
+}
+
+
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+
+}
+
+p {
+    margin: 0;
+}
