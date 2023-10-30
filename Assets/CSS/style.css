@@ -98,7 +98,7 @@ body {
     grid-area: sidebar;
     border: 5px solid;
     font-size: 2vw;
-    align-items:center
+    align-items:first baseline;
    
 }
 
